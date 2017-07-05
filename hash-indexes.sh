@@ -5,7 +5,10 @@ echo "database values:" > db.log
 
 put () {
 	positions[$1]=`stat --printf="%s" db.log`
+	systemLang=$LANG
+	LANG=C
 	lengths[$1]=${#2}
+	LANG=$systemLang
 	echo $2 >> db.log
 }
 

@@ -13,4 +13,4 @@ The only two available operations are `get` and `put`.
 It uses bash associative arrays to keep an index of the database and should be
 faster in read than [a simple database](https://github.com/tools4origins/mini-db). Since indexes are not persisted the database is clean each time it is launched.
 
-This readme file is 225% bigger than the database source code :).
+This readme file is 193% bigger than the database source code :).
